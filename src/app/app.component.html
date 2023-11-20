@@ -1,0 +1,9 @@
+<div class="routing">
+  <h3>Routing</h3>
+<a routerLink="">Home</a>
+<a routerLink="About">About</a>
+<a routerLink="products">Products</a>
+<a [routerLink]="['/product-name', 'Tablet']">Product 1</a>
+<a [routerLink]="['/product-name', 'Mobile']">Product 2</a>
+<router-outlet></router-outlet>
+</div>
